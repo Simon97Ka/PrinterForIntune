@@ -10,7 +10,7 @@
    powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File Remove-IPPrinter.ps1 -PortIPAddress "" -PrinterName ""
  
 .EXAMPLE
-   Remove-IPPrinter.ps1 -PortIPAddress "192.168.1.10" -PrinterName "Drucker 1. OG"
+   Remove-IPPrinter.ps1 -PortIPAddress "192.168.1.10" -PrinterName "HP Drucker Grossraumbüro"
  
 .PARAMETER PortIPAddress
    Die IP-Adresse des Druckers.

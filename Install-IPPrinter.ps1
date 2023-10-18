@@ -16,7 +16,8 @@
 
  
 .EXAMPLE
-   Install-IPPrinter.ps1 -PortIPAddress "192.168.1.10" -PrinterName "Drucker 1. OG" -DriverName "HP Universal Printing PCL 6" -DriverInfFileName "hpcu270u.inf"
+   //Install
+   Install-IPPrinter.ps1 -PortIPAddress "192.168.1.10" -PrinterName "HP Drucker Grossraumbüro" -DriverName "HP Universal Printing PCL 6" -DriverInfFileName "hpcu270u.inf"
  
 .PARAMETER PortIPAddress
    Die IP-Adresse des Druckers.
