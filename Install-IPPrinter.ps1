@@ -12,7 +12,7 @@
    powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File Install-IPPrinter.ps1 -PortIPAddress "" -PrinterName "" -DriverName "" -DriverInfFileName ".inf"
    ---
    Registry-Pfad für Detection Rule:
-   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\DRUCKERNAME
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\HP Drucker Grossraumbüro
 
  
 .EXAMPLE
